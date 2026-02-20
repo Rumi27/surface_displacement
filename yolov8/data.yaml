@@ -1,0 +1,6 @@
+train: /home/chunlab/Desktop/surface_displacement/yolo/marker_yolo/images/train
+val: /home/chunlab/Desktop/surface_displacement/yolo/marker_yolo/images/val
+
+nc: 1
+names: ['marker']
+

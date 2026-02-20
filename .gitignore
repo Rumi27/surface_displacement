@@ -1,0 +1,139 @@
+# Confidential Data - DO NOT COMMIT
+# Actual test images (confidential)
+actual images/
+actual_images/
+**/actual_images/
+**/actual images/
+
+# Actual measurements (confidential ground truth data)
+actual_measurment/
+actual_measurement/
+**/actual_measurment/
+**/actual_measurement/
+
+# Publication documents (may contain sensitive information)
+publication/
+*.odt
+*.docx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model weights and checkpoints (large files)
+*.pt
+*.pth
+*.ckpt
+*.weights
+runs/
+**/runs/
+**/yolo_runs/
+**/gan_ckpt/
+
+# Data cache
+*.cache
+.cache/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+tmp_*/
+
+# System files
+sys
+.sys
+
+# Results and outputs (may contain sensitive data)
+results/
+**/results/
+results_hungarian/
+results_mapped/
+eval_real/
+**/eval_real/
+
+# Overlays and visualizations (may contain actual images)
+overlays/
+**/overlays/
+overlays_select/
+
+# Auto-generated labels
+auto_labels/
+
+# Missing files tracking
+missing/
+tmp_missing/
+
+# Training data splits (may reference actual images)
+train_list.txt
+val_list.txt
+
+# Large image directories (keep structure but not all images)
+# Note: GAN/synth images and augmented images are included
+# but we exclude directories that might contain actual images
+real_8/
+new_frames/
+
+# Audit reports
+leakage_audit_report.csv
+audit_report.csv
+
+# Figures that may contain actual images
+# Keep processed figures, exclude those with actual image content
+# (You may want to review which figures to include)
+
+# YOLO specific
+yolov5/weights/
+yolov7/weights/
+yolov8/weights/
+
+# Tensorboard
+runs/
+*.tfevents.*
+
+# OS
+Thumbs.db
+.DS_Store

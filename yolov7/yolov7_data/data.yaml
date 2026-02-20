@@ -1,0 +1,6 @@
+# yolov7_data/data.yaml
+train: /home/chunlab/Desktop/surface_displacement/yolov7/yolov7_data/marker_yolo/images/train
+val:   /home/chunlab/Desktop/surface_displacement/yolov7/yolov7_data/marker_yolo/images/val
+nc: 1
+names: [marker]
+

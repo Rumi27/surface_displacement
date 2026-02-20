@@ -1,0 +1,12 @@
+# YOLO Dataset Configuration Template
+# Copy this file to data.yaml and update paths as needed
+
+# Training and validation image directories (relative paths)
+train: yolo/marker_yolo/images/train
+val: yolo/marker_yolo/images/val
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['marker']

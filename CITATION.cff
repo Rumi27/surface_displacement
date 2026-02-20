@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Zafar
+    given-names: A.
+title: "Automated Marker Detection Using YOLO for Soil Displacement Analysis in Large-Scale Shaking Table Tests"
+version: 1.0.0
+doi: 10.5281/zenodo.XXXXXXX
+date-released: 2025-01-01
+license: MIT
+repository-code: "https://github.com/yourusername/surface_displacement"
+keywords:
+  - "YOLO"
+  - "object detection"
+  - "soil displacement"
+  - "shaking table tests"
+  - "computer vision"
+  - "marker tracking"
+abstract: "Automated marker detection system using YOLO for analyzing soil displacement in large-scale shaking table tests. The system detects and tracks markers on soil surfaces to measure displacement during seismic simulations."

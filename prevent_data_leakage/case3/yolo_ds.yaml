@@ -1,0 +1,5 @@
+# Auto-generated
+path: /home/chunlab/Desktop/surface_displacement/prevent_data_leakage/case3
+train: images/train
+val: images/val
+names: [marker]
